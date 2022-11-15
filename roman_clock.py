@@ -39,11 +39,11 @@ def time_in_roman():
 
     now = time.localtime()
     if now.tm_hour == 0:
-        hour = ""
+        hour = " "
     else:
         hour = int_to_roman(now.tm_hour)
-    if now.tm_hour == 0:
-        tm_min = ""
+    if now.tm_min == 0:
+        minute = " "
     else:
         minute = int_to_roman(now.tm_min)
 
