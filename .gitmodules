@@ -1,0 +1,3 @@
+[submodule "e-Paper"]
+	path = e-Paper
+	url = git@github.com:jozef-dudas/e-Paper.git
